@@ -1,0 +1,29 @@
+{
+  "deviceTypes": [
+    {
+      "id": "intelligent",
+      "running": true,
+      "events": [
+        {
+          "id": "event_1",
+          "frequency": {
+            "repeat": 20,
+            "every": "minute"
+          },
+          "json": "{\n  \"water_tank_level\": random(0, 100) ,\n  \"water_flow\": random(0, 1000)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "123456",
+          "generated": false,
+          "eventOverrides": []
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-yuhx22-b43zazvwsc"
+}
